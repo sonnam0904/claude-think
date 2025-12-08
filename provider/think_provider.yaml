@@ -1,0 +1,21 @@
+identity:
+    author: Son Nguyen Nam
+    name: claude_think
+    label:
+        en_US: Claude Think Tool
+        zh_Hans: Claude 思考工具
+    description:
+        en_US: Multi-step thinking tool for Node Agents based on Claude's think tool research. Enables structured reasoning and context accumulation for better decision-making.
+        zh_Hans: 基于 Claude think tool 研究的多步骤思考工具。为 Node Agent 提供结构化推理和上下文积累，以做出更好的决策。
+    icon: icon.svg
+    tags:
+        - utilities
+        - productivity
+
+tools:
+    - tools/think.yaml
+
+extra:
+    python:
+        source: provider/think_provider.py
+
