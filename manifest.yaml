@@ -10,6 +10,7 @@ description:
     zh_Hans: 一个供节点代理执行结构化多步推理的工具，能够积累更丰富的上下文以做出更好的决策。
 icon: icon.svg
 created_at: 2024-12-01T00:00:00Z
+privacy_policy: "./PRIVACY.md"
 resource:
     type: plugin
     manifest: manifest.yaml
