@@ -57,5 +57,7 @@ logs/
 # OS
 Thumbs.db
 
+# Markdown files (exclude most, but keep essential documentation)
 *.md
 !README.md
+!PRIVACY.md
