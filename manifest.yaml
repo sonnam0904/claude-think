@@ -10,13 +10,12 @@ description:
     zh_Hans: 一个供节点代理执行结构化多步推理的工具，能够积累更丰富的上下文以做出更好的决策。
 icon: icon.svg
 created_at: 2024-12-01T00:00:00Z
-privacy_policy: "./PRIVACY.md"
-privacy_compliance: true
+privacy: PRIVACY.md
 resource:
-    type: plugin
-    manifest: manifest.yaml
     memory: 67108864  # 64MB
     permission:
+        tool:
+            enabled: true
         storage:
             enabled: false
             size: 1048576
@@ -27,13 +26,9 @@ meta:
         - arm64
     runner:
         language: python
-        version: "3.10"
+        version: "3.12"
         entrypoint: main
     minimum_dify_version: 1.7.1
-    privacy:
-        no_personal_data: true
-        no_external_api: true
-        runtime_only: true
     tags:
         - reasoning
         - context
@@ -42,3 +37,4 @@ meta:
 plugins:
     tools:
         - provider/think_provider.yaml
+verified: false
