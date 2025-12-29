@@ -57,7 +57,31 @@ logs/
 # OS
 Thumbs.db
 
-# Markdown files (exclude most, but keep essential documentation)
-*.md
-!README.md
-!PRIVACY.md
+# Markdown files - exclude specific ones, keep README.md and PRIVACY.md
+AGENTS.md
+API-DOCS.md
+claude-think-tool.md
+CONFIGURATION.md
+CREATE-SIGNATURE.md
+DEV-SETUP.md
+DISABLE-VERIFICATION.md
+EXAMPLES.md
+INSTRUCTIONS.md
+PACKAGE-FIX.md
+PACKAGE-VERIFY.md
+PHASE1-SUMMARY.md
+PHASE2-SUMMARY.md
+PHASE3-SUMMARY.md
+PLUGIN-SUBMISSION.md
+PRECHECK_REPORT.md
+PRIVACY-METADATA-EXPLAINED.md
+PRIVACY-METADATA-FIX.md
+PRIVACY-OBJECT-SOLUTION.md
+PROGRESS.md
+PROJECT-PLAN.md
+QUICK-START.md
+SECURITY.md
+SETUP.md
+TEST_RESULTS.md
+USER-GUIDE.md
+docs/**/*.md

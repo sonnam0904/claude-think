@@ -14,11 +14,6 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
-# Map 'serverless' to 'aws_lambda' for compatibility with build scripts
-# DifyPluginEnv only accepts 'local', 'remote', or 'aws_lambda'
-if os.getenv("INSTALL_METHOD") == "serverless":
-    os.environ["INSTALL_METHOD"] = "aws_lambda"
-
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
